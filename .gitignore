@@ -39,4 +39,5 @@ build/
 .vscode/
 
 # Mac OS
+.idea/
 .DS_Store
