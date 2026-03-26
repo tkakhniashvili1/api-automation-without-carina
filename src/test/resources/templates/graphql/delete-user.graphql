@@ -1,0 +1,13 @@
+mutation {
+  deleteUser(input: {
+    id: ${ID}
+  }) {
+    user {
+      id
+      name
+      email
+      gender
+      status
+    }
+  }
+}

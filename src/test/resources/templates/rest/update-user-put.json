@@ -1,0 +1,6 @@
+{
+  "name": "${NAME}",
+  "gender": "${GENDER}",
+  "email": "${EMAIL}",
+  "status": "${STATUS}"
+}
