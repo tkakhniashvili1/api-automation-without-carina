@@ -1,0 +1,9 @@
+query {
+  user(id: ${ID}) {
+    id
+    name
+    email
+    gender
+    status
+  }
+}

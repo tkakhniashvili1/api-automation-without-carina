@@ -1,0 +1,17 @@
+mutation {
+  updateUser(input: {
+    id: ${ID},
+    name: "${NAME}",
+    gender: "${GENDER}",
+    email: "${EMAIL}",
+    status: "${STATUS}"
+  }) {
+    user {
+      id
+      name
+      email
+      gender
+      status
+    }
+  }
+}

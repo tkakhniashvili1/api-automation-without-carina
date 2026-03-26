@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GoREST GraphQL Suite">
+    <test name="Users GraphQL Tests">
+        <classes>
+            <class name="com.solvd.graphql.UsersGraphQlTest"/>
+        </classes>
+    </test>
+</suite>
